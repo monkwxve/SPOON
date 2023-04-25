@@ -1,0 +1,774 @@
+
+/*ГОЛОВА САЙТА*/
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
+
+.header .container {
+    display: flex;
+    margin-top: -10px;
+    background-image:url(img/1_block_back.png);
+    height: 582px;
+    width: 1440px;
+    z-index: 0;
+}
+
+.logo{
+    margin-top: 30px;
+    margin-left: 135px;
+}
+
+.header ul{
+    color:white;
+    display: flex;
+    list-style: none;
+    margin-left: 500px;
+    margin-top: -29px;
+}
+
+.menu-item{
+    margin-right: 40px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.menu-item a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu-item a:hover{
+    border-bottom: 2px solid darkturquoise;
+}
+
+.button{
+    box-sizing: border-box;
+    text-decoration: none;
+    height: 46px;
+    width: 120px;
+    margin-right: 129px ;
+    margin-top: -9px;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+
+    text-align: center;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    padding-top: 8.5px;
+    padding-bottom: 8.5px;
+    padding-left: 8.5px;
+    padding-right: 8.5px;
+    color: #FFFFFF;
+}
+.button:hover{
+    border: 2px solid darkturquoise;
+    background-color: darkturquoise;
+    color:black;
+}
+
+.main-title{
+    font-weight: 700;
+    font-size: 71px;
+    line-height: 78px;
+    
+}
+
+.main-title{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 71px;
+    line-height: 78px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: white;
+    margin-top: 130px;
+    margin-right: 100px;
+}
+
+.main-text{
+    margin-top: -15px;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 24px;
+    margin-right: 100px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.button2{
+    box-sizing: border-box;
+    height: 60px;
+    width: 160px;   
+    display: flex;
+    background: #5AB963;
+    border-radius: 4px;
+    padding-top: 22px;
+    padding-left: 43px;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-top: 60px;
+    margin-left: 480px;
+}
+
+.button2:hover{
+    background-color:darkturquoise;
+    color:black;
+}
+
+/* ВТОРАЯ СЕКЦИЯ*/
+
+.main-text2{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: black;
+    margin-left: 135px;
+    margin-top: 120px;
+}
+
+.main-info2{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 36px;
+    color: #999999;
+    margin-top: -55px;
+    margin-left: 225px;
+
+}
+
+.main-info{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 176px;
+    margin-right: 199px;
+}
+
+.carta{
+    max-width: 377px;
+    margin-top: 70px;
+}
+
+.Pro{
+    padding-top: 25px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.Ne{
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #999999;
+}
+
+/*2 СЕКЦИЯ*/
+
+.container3{
+    display: flex;
+    margin: auto;
+    height: 720px;
+    width: 100%;
+    max-width: 1380px;
+    z-index: 0;
+    background-image:url(img/eggs.png);
+    margin-top: 229px;
+}
+.egg{
+    height: 720px;
+}
+
+/*3 СЕКЦИЯ*/
+
+.main-text3{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: black;
+    margin-top: 115px;
+}
+.main-text3 span{
+    color: #999999;
+    font-weight: 100;
+    text-align:center;
+}
+
+.MORE{
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #5AB963;
+    margin-bottom: 115px;
+}
+
+.MORE a{
+    text-decoration: none;
+    color: #5AB963;
+}
+
+.MORE a:hover{
+    border-bottom: 2px solid darkturquoise;
+}
+
+.cont3{
+    height: 398px;
+    margin: auto;
+}
+
+/*4 секция*/
+.container4{
+    height: 1154px;
+    left: 0%;
+    right: 0%;
+    margin-top: 121px;
+    margin: auto;
+}
+
+.cub{
+    width: 1170px;
+    height: 914px;
+    margin: auto;
+}
+
+/*abricosi*/
+
+.abricosi{
+    height: 330px;
+    background-image:url(img/abrikosi.png);
+    width: 470px;
+}
+
+.main-text5{
+    width: 362px;
+    max-width: 362px;
+    height: 108px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 36px;
+    color: #999999;
+    margin-left: 605px;
+    margin-right: 238px;
+    margin-top: -100px;
+    
+}
+.Ne2{
+    width: 362px;
+    max-width: 362px;
+    margin-left: 605px;
+    margin-right: 238px;
+    
+    height: 120px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #999999;
+}
+
+/*persiki*/
+
+.persiki{
+    height: 330px;
+    margin-left: 705px;
+    margin-right: 135px;
+    margin-top: 90px;
+    background-image:url(img/persiki.png);
+    width: 470px;
+}
+
+.main-text6{
+    width: 362px;
+    max-width: 362px;
+    height: 108px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 36px;
+    color: #999999;
+
+    margin-left: -455px;    
+}
+
+.Ne3{
+    width: 362px;
+    max-width: 362px;
+    margin-left: -455px;
+
+    height: 120px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #999999;
+}
+
+.wanna{
+    height: 54px;
+    margin-top: 110px;
+}
+
+.main-text7{
+    width: 344px;
+    height: 24px;
+    margin-top: 200px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-align: center;
+
+    color: #000000;
+
+    margin-left:430px;
+}
+
+.MORE2{
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #5AB963;
+    margin-bottom: 115px;
+    margin-left: 30px;
+}
+
+.MORE2 a{
+    text-decoration: none;
+    color: #5AB963;
+}
+
+.MORE2 a:hover{
+    border-bottom: 2px solid darkturquoise;
+}
+
+/*5 секция*/
+
+.obj{
+    width: 1170px;
+    height: 111px;
+    margin: auto;
+}
+
+.text{
+    height: 111px;
+    width: 585px;
+}
+
+.green{
+    height: 24px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5AB963;
+    margin-top: 200px;
+}
+
+.quas{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 36px;
+    color: #999999;
+    margin-top: 10px;
+}
+
+.button3{
+    box-sizing: border-box;
+    height: 60px;
+    width: 160px;   
+    display: flex;
+    background: #5AB963;
+    border-radius: 4px;
+    padding-top: 22px;
+    padding-left: 35px;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-top: -100px;
+    margin-left: 900px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.button3 a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.button3:hover{
+    background-color:darkturquoise;
+    color:black;
+}
+
+.back{
+    background-color: #0a0e1a;
+    height: 399px;
+    width: 1440px;
+    margin: auto;
+}
+
+/*1 список*/
+
+.mama{
+    color:white;
+    list-style: none;
+    padding-top:120px ;
+    padding-left: 720px;
+}
+
+.menu-item2{
+    margin-right: 40px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    padding-top: 25px;
+}
+
+.menu-item2 a{
+    text-decoration: none;
+    color: white;
+
+}
+.menu-item2 a:hover{
+    border-bottom: 2px solid darkturquoise;
+}
+
+/*2 список*/
+.mama2{
+    color:white;
+    list-style: none;
+    margin-top: -162px;
+    padding-left: 825px;
+}
+.menu-item3{
+    margin-right: 40px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    padding-top: 25px;
+}
+
+.menu-item3 a{
+    text-decoration: none;
+    color: white;
+
+}
+.menu-item3  a:hover{
+    border-bottom: 2px solid darkturquoise;
+}
+
+/*3 список*/
+.mama3{
+    color:white;
+    list-style: none;
+    margin-top: -162px;
+    padding-left: 925px;
+}
+.menu-item4{
+    margin-right: 40px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    padding-top: 25px;
+}
+
+.menu-item4 a{
+    text-decoration: none;
+    color: white;
+
+}
+.menu-item4  a:hover{
+    border-bottom: 2px solid darkturquoise;
+}
+
+/*лого*/
+.spoon2{
+    margin-top: -95px;
+    margin-left: 135px;
+
+}
+.menu-item5{
+    list-style-type: none;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #666666;
+    padding-top: 15px;
+}
+
+.menu-item5 a{
+    text-decoration: none;
+    color: #666666;
+}
+
+/*сайты*/
+.mama4{
+    list-style: none;
+    margin-right:300px;
+    margin-top: -110px;
+}
+.menu-item6{
+    padding-left: 1000px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
+/*
+  ... стандартные правила CSS ...
+  например, выводим карточки товаров по 4 в ряд
+*/
+@media (max-width:640px) {
+    /*
+      ... правила для планшетов ...
+      выводим карточки товаров по 2 в ряд
+    */
+  }
+  @media screen and (max-width:390px) {
+    .body{
+        width: 390px;
+    }
+    .header .container {
+        margin-left: -8px;
+        background-image: none;
+        height: 582px;
+        width: 390px;
+    }
+    .container{
+        background-color: black;
+        width: 390px;
+        margin-left: -8px;
+    }
+    .container3{
+        width: 390px;
+    }
+    .container4{
+        width: 390px;
+    }
+
+    .main-title{
+        font-size: 16px;
+        margin-left: 80px;
+    }
+    .main-text{
+        margin-top: -20px;
+        font-size: 10px;
+        margin-left: 80px;
+    }
+    .button2{
+        margin-left: -20px;
+    }
+
+    .main-text2{
+        margin-left:20px;
+        font-size: 16px;
+        color: white;
+        width: 390px;
+        margin-top: 300px;
+    }
+    .main-info2{
+        margin-top: -48px;
+        margin-left:85px;
+        font-size: 13px;
+    }
+
+    .carta{
+        margin-left: -100px;
+    }
+    .Pro{
+        width: 390px;
+        margin-top: -20px;
+        color: white;
+    }
+    .Ne{
+        margin-top: -10px;
+    }
+    body{
+        background-color: black;
+    }
+    .container3{
+        background-image:none;
+    }
+    .egg{
+        height: 0px;
+    }
+    .main-text3{
+        font-size: 13px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 390px;
+    }
+    .MORE{
+        font-size: 9px;
+    }
+    .abricosi{
+        margin-top: 200px;
+        width: 390px;
+        height: 250px;
+        background-image: none;
+        margin-left: -600px;
+        text-align: center;
+    }
+    .persiki{
+        width: 390px;
+        height: 250px;
+        background-image: none;
+        margin-left: 460px;
+        text-align: center; 
+    }
+    .main-text7{
+        color: #FFFFFF;
+        font-size: 13px;
+        margin-left: 20px;
+        margin-top: -60px;
+    }
+    .MORE2{
+        font-size: 9px;
+        margin-left: -16px;
+    }
+    .green{
+        margin-top: -100px;
+        font-size: 13px;
+        margin-left: 67px;
+    }
+    .quas{
+        font-size: 13px;
+        margin-left: 67px;
+    }
+    .button3{
+        margin-left: 110px;
+        margin-top: 70px;
+    }
+
+    .mama{
+        margin-left: -700px;
+
+    }
+    .mama2{
+        margin-left: -700px;
+    }
+    .mama3{
+        margin-left: -720px;
+    }
+    .mama4{
+        margin-left: -1500px;
+        margin-top: -258px;
+    }
+    .spoon2{
+        margin-top: 70px;
+        margin-left: -20px;
+    }
+    .back{
+        background-color: #0a0e1a;
+        height: 399px;
+        width: 390px;
+        margin-left: -8.5px;
+        margin-bottom: -9px;
+    }
+    .hamburger-icon {
+        display: inline-block;
+        cursor: pointer;
+        padding: 10px;
+        margin-top: -30px;
+        }
+        
+        .hamburger-icon span {
+        display: block;
+        width: 30px;
+        height: 4px;
+        margin-bottom: 5px;
+        margin-left: 30px;
+        background-color: #333;
+        }   
+        .header ul{
+            display: none;
+        }
+        
+        .menu-item{
+            display: none;
+        }
+        
+        .menu-item a{
+            display: none;
+        }
+        
+        .menu-item a:hover{
+            display: none;
+        }
+        
+        .button{
+            display: none;
+        }
+        .button:hover{
+            display: none;
+        }
+        .ses{
+            width: 390px;
+            margin-left: -134px;
+        }
+        .logo{
+            margin-top: 40px;
+        }
+        .cub{
+            width: 390px;
+        }
+        .obj{
+            width: 390px;
+        }
+  }
+  
